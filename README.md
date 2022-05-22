@@ -6,7 +6,7 @@
 >>>>>>> a6971c94e50a0928e8e10c30035f0e0cb5aa031f
 <h2 align="center"> Projeto Digiesclhidos</h2>
 <p align="center"> Este projeto é uma variação do projeto Pokédex no evento MapaDev Week, desenvolvido pelo @devemdobro.🌱 <br>
-Diferentemente do oroginal ,este tem como propósito apresentar os digiescolhidos da primeira temporada (Digimon Adventure) e seus respectivos digimons. </p> <br>
+Diferentemente do original ,este tem como propósito apresentar os digiescolhidos da primeira temporada (Digimon Adventure) e seus respectivos digimons. </p> <br>
 <img align="center" src="https://imgur.com/EUhKETs" width="100%">
 
 <h2 align="center"> Tecnologias utilizadas 💻</h2>
