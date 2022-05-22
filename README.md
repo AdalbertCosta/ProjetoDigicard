@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100px" src="https://cdn-icons-png.flaticon.com/512/188/188942.png" align="center"/>
+ <img width="100px" src="https://img1.ak.crunchyroll.com/i/spire2/5d974c371f1539ea91907373dca255321611219473_main.jpg" align="center"/>
 <h2 align="center"> Projeto Digiesclhidos</h2>
 <p align="center"> Este projeto é uma variação do projeto Pokédex no evento MapaDev Week, desenvolvido pelo @devemdobro.🌱 <br>
 Em relação ao oroginal este tem como propósito apresentar os digiescolhidos da primeira temporada (Digimon Adventure) e seus respectivos digimons. </p> <br>
