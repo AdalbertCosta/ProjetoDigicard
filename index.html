@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/pokeball.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="stylesheet" href="src/css/cartao.css">
+    <link rel="stylesheet" href="src/css/listagem.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <title>DigiCards - MapaDev Week</title>
+</head>
+
+<body>
+    <header>
+        <picture class="topo">
+            <source media="(max-width: 750px)" srcset="./src/images/logo-digicard-p.png">
+
+            <img src="./src/images/logo-digimon-p.png" class="animate__animated animate__pulse" alt="logo-digicard">
+        </picture>
+    </header>
+
+    <main>
+        <div class="digicard">
+            <div class="cartoes-digimon">
+
+                <div class="cartao-digimon aberto tipo-eletrico" id="cartao-tai">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Tai – Taichi Kamiya</h2>
+                            <span>#001</span>
+                        </div>
+
+                        <span class="tipo">Brasão: Coragem</span>
+
+                        <div class="cartao-imagem">
+                            <img class="animate__animated animate__zoomIn" src="src/images/tai.png"
+                                alt="Imagem do Pikachu">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Digimons</h3>
+                            <ul>
+                                <li>Botamon</li>
+                                <li>Koromon</li>
+                                <li>Agumon</li>
+                                <li>Greymon</li>
+                                <li>MetalGreymon</li>
+                                <li>WarGreymon</li>
+                                <li>Omnimon</li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Informações</h3>
+                            <ul>
+                                <li>八神　太一</li>
+                                <li>11 anos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-digimon tipo-grama" id="cartao-matt">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Matt – Yamato Ishida</h2>
+                            <span>#002</span>
+                        </div>
+
+                        <span class="tipo">Brasão: Amizade</span>
+
+                        <div class="cartao-imagem">
+                            <img class="animate__animated animate__zoomIn" src="src/images/matt.png"
+                                alt="Imagem do Bulbasaur">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Digimons</h3>
+                            <ul>
+                                <li>Tsunomon</li>
+                                <li>Gabumon</li>
+                                <li>Garurumon</li>
+                                <li>WereGarurumon</li>
+                                <li>MetalGarurumon</li </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Informações</h3>
+                            <ul>
+                                <li>石田　ヤマト</li>
+                                <li>11 anos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-digimon tipo-fogo" id="cartao-sora">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Sora – Sora Takenouchi</h2>
+                            <span>#003</span>
+                        </div>
+
+                        <span class="tipo">Brasão: Amor</span>
+
+                        <div class="cartao-imagem">
+                            <img class="animate__animated animate__zoomIn" src="src/images/sora.png"
+                                alt="Imagem do Charmander">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>Nyokimon</li>
+                                <li>Yokomon</li>
+                                <li>Piyomon</li>
+                                <li>ABridramon</li>
+                                <li>Garudamon</li>
+                                <li>Phoenixmon</li>
+
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Informações</h3>
+                            <ul>
+                                <li>武之内 空</li>
+                                <li>11 anos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-digimon tipo-agua" id="cartao-izumi">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Izzy – Koushiro Izumi</h2>
+                            <span>#004</span>
+                        </div>
+
+                        <span class="tipo">Brasão: Sabedoria</span>
+
+                        <div class="cartao-imagem">
+                            <img class="animate__animated animate__zoomIn" src="src/images/izumi.png"
+                                alt="Imagem do Pikachu">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Digimons</h3>
+                            <ul>
+                                <li>Babumon</li>
+                                <li>Motimon</li>
+                                <li>Tentomon</li>
+                                <li>Kabuterimon</li>
+                                <li>Mega Kabuterimon</li>
+                                <li>Hércules Kabuteriomon</li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Informações</h3>
+                            <ul>
+                                <li>泉 光子郎</li>
+                                <li>10 anos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-digimon tipo-trevas" id="cartao-mimi">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Mimi – Mimi Tachikawa</h2>
+                            <span>#005</span>
+                        </div>
+
+                        <span class="tipo">Brasão: Sinceridade</span>
+
+                        <div class="cartao-imagem">
+                            <img class="animate__animated animate__zoomIn" src="src/images/mimi.png"
+                                alt="Imagem do Gengar">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Digimons</h3>
+                            <ul>
+                                <li>Yuramon</li>
+                                <li>Tanemon</li>
+                                <li>Palmon</li>
+                                <li>Togemon</li>
+                                <li>Lillymon</li>
+                                <li>Rosemon</li>
+
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Informações</h3>
+                            <ul>
+                                <li>太刀川 ミ</li>
+                                <li>10 anos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-digimon tipo-dragao" id="cartao-joe">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Joe – Joe Kido</h2>
+                            <span>#006</span>
+                        </div>
+
+                        <span class="tipo">Brasão: Confiança</span>
+
+                        <div class="cartao-imagem">
+                            <img class="animate__animated animate__zoomIn" src="src/images/joe.png"
+                                alt="Imagem do Dragonite">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Digimons</h3>
+                            <ul>
+                                <li>Pichimon</li>
+                                <li>Bukamon</li>
+                                <li>Gomamon</li>
+                                <li>Ikkakumon</li>
+                                <li>Zudomon</li>
+                                <li>Plesiomon</li>
+                                <li>Vikimon</li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Informações</h3>
+                            <ul>
+                                <li>城戸 丈</li>
+                                <li>12 anos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-digimon tipo-dragao" id="cartao-kari">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Kari – Kari Kamiya</h2>
+                            <span>#007</span>
+                        </div>
+
+                        <span class="tipo">Brasão: Luz</span>
+
+                        <div class="cartao-imagem">
+                            <img class="animate__animated animate__zoomIn" src="src/images/kari.png"
+                                alt="Imagem do Dragonite">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Status</h3>
+                            <ul>
+                                <li>Botamon</li>
+                                <li>Nyaromon</li>
+                                <li>Platmon</li>
+                                <li>Tailmon</li>
+                                <li>Angewomon</li>
+                                <li>Magnadramon</li>
+                                <li>Ophanimon</li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Habilidades</h3>
+                            <ul>
+                                <li>八神 ヒカリ</li>
+                                <li>8 anos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-digimon tipo-dragao" id="cartao-tk">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">T.K – Takeru Takaishi</h2>
+                            <span>#008</span>
+                        </div>
+
+                        <span class="tipo">Brasão: Esperança</span>
+
+                        <div class="cartao-imagem">
+                            <img class="animate__animated animate__zoomIn" src="src/images/tk.png"
+                                alt="Imagem do Dragonite">
+                        </div>
+                    </div>
+
+                    <div class="cartao-info">
+                        <div class="status">
+                            <h3>Digimons</h3>
+                            <ul>
+                                <li>Poyomon</li>
+                                <li>Tokomon</li>
+                                <li>Patamon</li>
+                                <li>Angemon</li>
+                                <li>Magna Angemon</li>
+                                <li>Seraphimon</li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Informações</h3>
+                            <ul>
+                                <li>高石 タケル</li>
+                                <li>8 anos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <nav class="listagem">
+                <ul>
+                    <li class="digimon ativo" id="tai">
+                        <img src="src/images/agumon.png" alt="agumon">
+                        <span>Agumon</span>
+                    </li>
+                    <li class="digimon" id="matt">
+                        <img src="src/images/gabumon.png" alt="gabumon">
+                        <span>Gabumon</span>
+                    </li>
+                    <li class="digimon" id="sora">
+                        <img src="src/images/piyomon.png" alt="piyomon">
+                        <span>Piyomon</span>
+                    </li>
+                    <li class="digimon" id="izumi">
+                        <img src="src/images/tentomon.png" alt="tentomon">
+                        <span>Tentomon</span>
+                    </li>
+                    <li class="digimon" id="mimi">
+                        <img src="src/images/palmon.png" alt="palmon">
+                        <span>Palmon</span>
+                    </li>
+                    <li class="digimon" id="joe">
+                        <img src="src/images/gomamon.png" alt="gomamon">
+                        <span>Tailmon</span>
+                    </li>
+                    <li class="digimon" id="kari">
+                        <img src="src/images/tailmon.png" alt="tailmon">
+                        <span>Gatomon</span>
+                    </li>
+                    <li class="digimon" id="tk">
+                        <img src="src/images/patamon.png" alt="Patamon">
+                        <span>Patamon</span>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
